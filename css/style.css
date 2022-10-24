@@ -127,7 +127,7 @@ section.team-members div.right{
 
 section.team-members div.middle{
     width: 40%;
-    background-color: lightblue;
+    background-color: blue;
 }
 
 div.member{
@@ -137,3 +137,12 @@ div.member{
     width: 200px;
 }
 
+section.free-trial{
+    background-color: #b4d0e7;
+    height: 200px;
+}
+
+section.free-trial div.trial-container{
+    background-color: yellow;
+    height: 100%;
+}
