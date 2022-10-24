@@ -75,3 +75,9 @@ div.cards{
     height: 700px;
     background-color: magenta;
 }
+
+div.enterprise{
+    height: 150px;
+    background-color: red;
+    margin-top: 5px;
+}
