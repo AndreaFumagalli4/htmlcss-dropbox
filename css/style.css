@@ -48,7 +48,7 @@ section.nav-section ul>li{
 
 section.nav-section li>img{
     vertical-align: bottom;
-    padding-top: .75rem;
+    padding: .75rem 0 0 .8rem;
 }
 
 section.nav-section li>a{
