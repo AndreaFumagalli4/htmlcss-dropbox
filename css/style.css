@@ -39,6 +39,12 @@ section.nav-section ul{
     margin-top: 30px;
 }
 
+.container{
+    margin: 0 auto;
+    width: 75%;
+    justify-content: center;
+}
+
 section.title{
     background-color: #b4d0e7;
     height: 500px;
@@ -46,12 +52,6 @@ section.title{
 
 section.title h1{
     text-align: center;
-}
-
-div.container{
-    margin: 0 auto;
-    width: 75%;
-    justify-content: center;
 }
 
 div.container div.side-bar{
@@ -145,5 +145,14 @@ section.free-trial{
 section.free-trial div.trial-container{
     background-color: yellow;
     height: 100%;
+}
+
+/* css FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+    height: 500px;
+    margin-top: 20px;
 }
 
