@@ -54,45 +54,64 @@ section.nav-section li>img{
 section.nav-section li>a{
     color: #979797;
     text-decoration: none;
-    font-size: .7rem;
 }
 
-button#start-button{
+button.start-button{
     padding: .25rem .5rem;
-    font-size: .7rem;
 }
 
+section.nav-section li>a,
+button.start-button{
+    font-size: .7rem;
+}
 
 /* css MAIN */
 
 .section-position{
-    width: 65%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 30px;
 }
 
 .container{
     margin: 0 auto;
-    width: 75%;
+    width: 70%;
     justify-content: center;
+}
+
+div.info-container{
+    justify-content: start;
 }
 
 section.title{
     background-color: #b4d0e7;
-    height: 500px;
 }
 
 section.title h1{
-    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 4rem;
+    text-align: start;
+    padding: 3rem 0 2rem 0;
 }
 
-div.container div.side-bar{
-    background-color: red;
-    height: 250px;
-    width: 180px;
+div.info-container div.side-bar{
+    width: 30%;
 }
 
-div.container div.img{
+div.side-bar p{
+    font-size: .7rem;
+}
+
+div.side-bar button{
+    margin: 1rem 0;
+}
+
+div.side-bar p#space{
+    margin-bottom: 2.5rem;
+}
+
+div.info-container div.img{
     background-color: yellow;
     height: 250px;
     width: 180px;
