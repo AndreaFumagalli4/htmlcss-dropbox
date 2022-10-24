@@ -20,6 +20,7 @@ nav.flex{
     background-color: aqua;
     justify-content: space-between;
 }
+
 /* togliere la larghezza quando si mettono i contenuti */
 section.nav-section{
     width: 250px;
@@ -28,4 +29,33 @@ section.nav-section{
 
 section.nav-section ul{
     list-style-type: none;
+}
+
+/* css MAIN */
+
+section.title{
+    background-color: #b4d0e7;
+    height: 500px;
+}
+
+section.title h1{
+    text-align: center;
+}
+
+div.container{
+    margin: 0 auto;
+    width: 75%;
+    justify-content: center;
+}
+
+div.container div.side-bar{
+    background-color: red;
+    height: 250px;
+    width: 180px;
+}
+
+div.container div.img{
+    background-color: yellow;
+    height: 250px;
+    width: 180px;
 }
