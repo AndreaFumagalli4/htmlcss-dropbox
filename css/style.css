@@ -89,7 +89,7 @@ div.info-container{
 }
 
 h2{
-    margin-top: 6rem;
+    margin: 6rem 0 2rem;
     font-size: 2rem;
 }
 
@@ -129,6 +129,14 @@ div.info-container div#img{
     background-position: center;
     background-repeat: no-repeat;
     z-index: 3;
+}
+
+span.radio{
+    margin-right: 2rem;
+}
+
+span.radio label{
+    font-size: .7rem;
 }
 
 div.business-container{
