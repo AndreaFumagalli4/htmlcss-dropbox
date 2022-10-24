@@ -59,3 +59,19 @@ div.container div.img{
     height: 250px;
     width: 180px;
 }
+
+section.business-plan{
+    width: 65%;
+    margin: 0 auto;
+}
+
+div.business-container{
+    background-color: yellow;
+    justify-content: center;
+}
+
+div.cards{
+    width: calc(100% / 3);
+    height: 700px;
+    background-color: magenta;
+}
