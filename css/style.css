@@ -8,3 +8,24 @@
 body{
     font-family: 'open sans', sans-serif;
 }
+
+/* css HEADER */
+
+.flex{
+    display: flex;
+}
+
+nav.flex{
+    height: 50px;
+    background-color: aqua;
+    justify-content: space-between;
+}
+/* togliere la larghezza quando si mettono i contenuti */
+section.nav-section{
+    width: 250px;
+    background-color: lime;
+}
+
+section.nav-section ul{
+    list-style-type: none;
+}
