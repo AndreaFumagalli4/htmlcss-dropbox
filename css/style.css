@@ -112,3 +112,28 @@ div.cells-container article.cell{
     background-color: magenta;
     border: 1px solid black;
 }
+
+section.team-members{
+    height: 500px;
+}
+
+section.team-members div.left,
+section.team-members div.right{
+    width: 30%;
+    background-color: yellow;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section.team-members div.middle{
+    width: 40%;
+    background-color: lightblue;
+}
+
+div.member{
+    background-color: magenta;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
