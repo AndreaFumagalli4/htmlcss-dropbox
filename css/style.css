@@ -111,10 +111,13 @@ div.side-bar p#space{
     margin-bottom: 2.5rem;
 }
 
-div.info-container div.img{
-    background-color: yellow;
-    height: 250px;
-    width: 180px;
+div.info-container div#img{
+    height: 300px;
+    width: 70%;
+    background-image: url("../img/jumbo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 div.business-container{
