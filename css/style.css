@@ -157,7 +157,8 @@ div.business-container{
 }
 
 div.cards,
-section.dropbox-partner article{
+section.dropbox-partner article,
+article.cell p{
     font-size: .75rem;
 }
 
@@ -254,9 +255,9 @@ section.dropbox-partner{
 
 section.dropbox-partner div.img{
     background-image: url("../img/partner.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 400px;
     width: 60%;
 }
 
@@ -266,11 +267,11 @@ section.dropbox-partner article{
 }
 
 section.dropbox-partner article>h3{
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 section.dropbox-partner article>p{
-    padding: 0 1rem 1rem 0;
+    padding: 0 1rem 2rem 0;
 }
 
 section.dropbox-partner button#button-partner{
@@ -280,17 +281,22 @@ section.dropbox-partner button#button-partner{
 }
 
 div.cells-container{
-    height: 500px;
-    background-color: blue;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 div.cells-container article.cell{
-    height: 250px;
     width: calc(100% / 3);
-    background-color: magenta;
-    border: 1px solid black;
+}
+
+article.cell img{
+    height: 50%;
+    width: 100%;
+}
+
+article.cell h3{
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
 }
 
 section.team-members{
