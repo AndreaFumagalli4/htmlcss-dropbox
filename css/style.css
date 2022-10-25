@@ -156,11 +156,14 @@ div.business-container{
     margin-top: 40px;
 }
 
+div.cards,
+section.dropbox-partner article{
+    font-size: .75rem;
+}
+
 div.cards{
     width: calc((100% / 3) - 2rem);
     border: 1px solid lightgray;
-    font-size: .75rem;
-    margin-right: 1rem;
 }
 
 p.title-card{
@@ -238,7 +241,6 @@ div.horizontal-card button.button-contact-office{
     position: absolute;
     top: 80px;
     right: 40px;
-
 }
 
 div.horizontal-card p{
@@ -247,18 +249,34 @@ div.horizontal-card p{
 
 section.dropbox-partner{
     justify-content: center;
+    margin-top: 100px;
 }
 
 section.dropbox-partner div.img{
-    height: 200px;
-    width: 70%;
-    background-color: cyan;
+    background-image: url("../img/partner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 60%;
 }
 
 section.dropbox-partner article{
-    height: 200px;
-    width: 30%;
-    background-color: lime;
+    width: 40%;
+    margin: 2.5rem 0 0 2rem;
+}
+
+section.dropbox-partner article>h3{
+    padding-bottom: 1rem;
+}
+
+section.dropbox-partner article>p{
+    padding: 0 1rem 1rem 0;
+}
+
+section.dropbox-partner button#button-partner{
+    background-color: white;
+    padding: .5rem;
+    border: 1px solid black;
 }
 
 div.cells-container{
