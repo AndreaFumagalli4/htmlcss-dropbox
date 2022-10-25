@@ -63,7 +63,8 @@ button.start-button{
 
 section.nav-section li>a,
 button.start-button,
-section.client-number a{
+section.client-number a,
+div.trial-container button{
     font-size: .7rem;
 }
 
@@ -72,7 +73,6 @@ section.client-number a{
 .section-position{
     width: 60%;
     margin: 0 auto;
-    margin-top: 30px;
 }
 
 .p-relative{
@@ -372,12 +372,21 @@ div.square div#cc{
 
 section.free-trial{
     background-color: #b4d0e7;
-    height: 200px;
 }
 
 section.free-trial div.trial-container{
-    background-color: yellow;
-    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.trial-container h2{
+    font-size: 1.5rem;
+    color: #60092e;
+    margin: 5rem 0;
+}
+
+div.trial-container button{
+    padding: .5rem 2rem;
 }
 
 /* css FOOTER */
