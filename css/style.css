@@ -62,7 +62,8 @@ button.start-button{
 }
 
 section.nav-section li>a,
-button.start-button{
+button.start-button,
+section.client-number a{
     font-size: .7rem;
 }
 
@@ -297,6 +298,10 @@ article.cell img{
 article.cell h3{
     font-size: 1.1rem;
     padding-bottom: 1rem;
+}
+
+section.client-number{
+    margin-top: 100px;
 }
 
 section.team-members{
