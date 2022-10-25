@@ -80,8 +80,8 @@ button.start-button{
     justify-content: center;
 }
 
-.padding-left{
-    padding-left: 1.5rem;
+.padding{
+    padding: 0 1.5rem 0 1.5rem;
 }
 
 div.p-relative{
@@ -173,11 +173,12 @@ div.cards h3{
 div.cards span.price{
     display: block;
     padding-bottom: .5rem;
+    font-weight: bold;
 }
 
 div.cards ul{
     list-style-type: none;
-    padding: 2rem 0 1rem 1.5rem;
+    padding: 2rem 1.5rem 1rem;
 }
 
 div.cards ul>li{
@@ -187,6 +188,10 @@ div.cards ul>li{
 div.cards button.button-card{
     margin: 1rem 0 1.5rem 1.5rem;
     padding: .5rem 1rem;
+}
+
+div.cards button.button-contact-us{
+    padding: .5rem 4rem;
 }
 
 div.cards div.separator{
