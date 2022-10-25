@@ -106,6 +106,12 @@ h3{
     font-size: 1.3rem;
 }
 
+div.separator{
+    width:20%;
+    border: 1px solid lightgrey;
+    margin: 2rem 0 2rem 1.5rem;
+}
+
 section.title{
     background-color: #b4d0e7;
 }
@@ -120,10 +126,6 @@ section.title h1{
 
 div.info-container div.side-bar{
     width: 30%;
-}
-
-div.side-bar p{
-    font-size: .7rem;
 }
 
 div.side-bar button{
@@ -148,18 +150,18 @@ span.radio{
     margin-right: 2rem;
 }
 
-span.radio label{
-    font-size: .7rem;
-}
-
 div.business-container{
     justify-content: space-between;
     margin-top: 40px;
 }
 
+
+span.radio label,
+div.side-bar p,
 div.cards,
 section.dropbox-partner article,
-article.cell p{
+article.cell p,
+div.center-square p{
     font-size: .75rem;
 }
 
@@ -203,12 +205,6 @@ div.cards button.button-card{
 
 div.cards button.button-contact-us{
     padding: .5rem 4rem;
-}
-
-div.cards div.separator{
-    width:20%;
-    border: 1px solid lightgrey;
-    margin: 2rem 0 2rem 1.5rem;
 }
 
 div.cards h4{
@@ -306,14 +302,16 @@ section.client-number{
 
 section.team-members{
     margin-top: 100px;
-    height: 500px;
 }
 
 section.team-members div.square{
     height: calc(100vw / 3);
     width: calc(100vw / 3);
-    background-color: yellow;
     flex-wrap: wrap;
+}
+
+section.team-members div.center-square{
+    background-color: #f5f5f5;
 }
 
 div.square div.member{
@@ -327,6 +325,16 @@ div.member img{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+div.center-square img{
+    width: 45%;
+    padding: 1rem 0 0 1.5rem;
+}
+
+div.center-square p{
+    padding: 0 1.5rem 2rem 1.5rem;
+}
+
 /* CAMBIARE COLORE IMMAGINE */
 div.square div#design-it{
     background-color: #a2d39b;
