@@ -7,7 +7,7 @@
 
 body{
     font-family: 'open sans', sans-serif;
-    min-width: 1250px;
+    min-width: 1350px;
 }
 
 /* css HEADER */
@@ -80,6 +80,10 @@ button.start-button{
     justify-content: center;
 }
 
+.padding-left{
+    padding-left: 1.5rem;
+}
+
 div.p-relative{
     position: relative;
     bottom: -50px;
@@ -148,7 +152,51 @@ div.cards{
     width: calc(100% / 3);
     border: 1px solid lightgray;
     height: 700px;
-    background-color: magenta;
+    font-size: .75rem;
+}
+
+div.cards p.title-card{
+    text-align: center;
+    padding: .5rem;
+}
+
+div.cards hr{
+    color: lightgrey;
+}
+
+div.cards h3{
+    padding: 1rem 0 1rem 1.5rem;
+    font-size: 1.3rem;
+}
+
+div.cards span.price{
+    display: block;
+    padding-bottom: .5rem;
+}
+
+div.cards ul{
+    list-style-type: none;
+    padding: 2rem 0 1rem 1.5rem;
+}
+
+div.cards ul>li{
+    padding-bottom: 1rem;
+}
+
+div.cards button.button-card{
+    margin: 1rem 0 1.5rem 1.5rem;
+    padding: .5rem 2rem;
+}
+
+div.cards div.separator{
+    width:20%;
+    border: 1px solid lightgrey;
+    margin: 2rem 0 2rem 1.5rem;
+}
+
+div.cards h4{
+    font-size: .85rem;
+    padding-top: .75rem;
 }
 
 div.enterprise{
