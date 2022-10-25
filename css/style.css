@@ -324,6 +324,7 @@ div.member img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(100%);
 }
 
 div.center-square img{
