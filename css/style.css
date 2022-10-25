@@ -11,7 +11,7 @@ body{
 }
 
 /* css HEADER */
-
+/* SISTEMARE CENTRATURE ORIZZONTALI CON ALIGN-ITEMS: CENTER; */
 .flex{
     display: flex;
 }
@@ -74,6 +74,10 @@ button.start-button{
     margin-top: 30px;
 }
 
+.p-relative{
+    position: relative;
+}
+
 .container{
     margin: 0 auto;
     width: 70%;
@@ -84,8 +88,7 @@ button.start-button{
     padding: 0 1.5rem 0 1.5rem;
 }
 
-div.p-relative{
-    position: relative;
+section.title div.p-relative{
     bottom: -50px;
 }
 
@@ -96,6 +99,10 @@ div.info-container{
 h2{
     margin: 6rem 0 2rem;
     font-size: 2rem;
+}
+
+h3{
+    font-size: 1.3rem;
 }
 
 section.title{
@@ -150,27 +157,26 @@ div.business-container{
 }
 
 div.cards{
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 2rem);
     border: 1px solid lightgray;
     font-size: .75rem;
-    margin-right: 20px;
+    margin-right: 1rem;
 }
 
-div.cards p.title-card{
+p.title-card{
     text-align: center;
     padding: .5rem;
 }
 
-div.cards hr{
+hr{
     color: lightgrey;
 }
 
 div.cards h3{
     padding: 1rem 0 1rem 1.5rem;
-    font-size: 1.3rem;
 }
 
-div.cards span.price{
+span.price{
     display: block;
     padding-bottom: .5rem;
     font-weight: bold;
@@ -213,10 +219,30 @@ ul.highlight li i{
     color: #446cff
 }
 
-div.enterprise{
-    height: 150px;
-    background-color: red;
-    margin-top: 5px;
+div.horizontal-card{
+    border: 1px solid lightgray;
+    font-size: .75rem;
+    margin-top: 40px;
+}
+
+div.horizontal-card h3{
+    margin-top: 1.5rem;
+}
+
+div.horizontal-card span.price{
+    margin-top: 1rem;
+}
+
+div.horizontal-card button.button-contact-office{
+    padding: .5rem 1.5rem;
+    position: absolute;
+    top: 80px;
+    right: 40px;
+
+}
+
+div.horizontal-card p{
+    padding: 1rem 1.5rem;
 }
 
 section.dropbox-partner{
