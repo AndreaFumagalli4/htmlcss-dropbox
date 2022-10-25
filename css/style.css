@@ -145,14 +145,15 @@ span.radio label{
 }
 
 div.business-container{
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
 div.cards{
     width: calc(100% / 3);
     border: 1px solid lightgray;
-    height: 700px;
     font-size: .75rem;
+    margin-right: 20px;
 }
 
 div.cards p.title-card{
@@ -185,7 +186,7 @@ div.cards ul>li{
 
 div.cards button.button-card{
     margin: 1rem 0 1.5rem 1.5rem;
-    padding: .5rem 2rem;
+    padding: .5rem 1rem;
 }
 
 div.cards div.separator{
@@ -197,6 +198,14 @@ div.cards div.separator{
 div.cards h4{
     font-size: .85rem;
     padding-top: .75rem;
+}
+
+div.cards ul.highlight{
+    margin-bottom: 2rem;
+}
+
+ul.highlight li i{
+    color: #446cff
 }
 
 div.enterprise{
