@@ -305,27 +305,60 @@ section.client-number{
 }
 
 section.team-members{
+    margin-top: 100px;
     height: 500px;
 }
 
-section.team-members div.left,
-section.team-members div.right{
-    width: 30%;
+section.team-members div.square{
+    height: calc(100vw / 3);
+    width: calc(100vw / 3);
     background-color: yellow;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
-section.team-members div.middle{
-    width: 40%;
-    background-color: blue;
+div.square div.member{
+    height: 50%;
+    width: 50%;
 }
 
-div.member{
-    background-color: magenta;
-    border: 1px solid black;
-    height: 200px;
-    width: 200px;
+div.member img{
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* CAMBIARE COLORE IMMAGINE */
+div.square div#design-it{
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
+}
+
+div.square div#asu{
+    background-color: #61082b;
+}
+
+div.square div#uf{
+    background-color: #0093ce;
+}
+
+div.square div#topps{
+    background-color: #ff1c1c;
+}
+
+div.square div#wbr{
+    background-color: #d5001f;
+}
+
+div.square div#hearst{
+    background-color: #b4d0e7;
+}
+
+div.square div#lp{
+    background-color: #0d2481;
+}
+
+div.square div#cc{
+    background-color: #ffd830;
 }
 
 section.free-trial{
