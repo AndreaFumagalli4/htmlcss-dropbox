@@ -99,7 +99,7 @@ main{
     padding-bottom: 5rem;
 }
 section.title div.p-relative{
-    bottom: -50px;
+    top: 50px;
 }
 
 div.info-container{
@@ -150,7 +150,6 @@ div.info-container div#img{
     width: 70%;
     background-image: url("../img/jumbo.png");
     background-size: contain;
-    background-position: center;
     background-repeat: no-repeat;
 }
 
