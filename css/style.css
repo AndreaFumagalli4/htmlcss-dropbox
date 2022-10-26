@@ -7,7 +7,9 @@
 
 body{
     font-family: 'open sans', sans-serif;
-    min-width: 1350px;
+    font-size: .75rem;
+    min-width: 1250px;
+    max-width: 1500px;
 }
 
 /* css HEADER */
@@ -154,18 +156,6 @@ span.radio{
 div.business-container{
     justify-content: space-between;
     margin-top: 40px;
-}
-
-span.radio label,
-div.side-bar p,
-div.cards,
-section.dropbox-partner article,
-article.cell p,
-div.center-square p,
-section.questions p,
-section.footer-top ul>li,
-section.footer-bottom span{
-    font-size: .75rem;
 }
 
 div.cards{
