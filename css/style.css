@@ -31,6 +31,13 @@ body{
     color: #d6e5ff;
 }
 
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
 nav.flex{
     height: 80px;
     justify-content: space-between;
@@ -65,6 +72,10 @@ button.start-button{
 }
 
 /* css MAIN */
+
+main{
+    padding-top: 80px;
+}
 
 .section-position{
     width: 55%;
