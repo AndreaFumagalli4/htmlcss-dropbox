@@ -18,6 +18,14 @@ body{
     display: flex;
 }
 
+.flex-content-center{
+    justify-content: center;
+}
+
+.flex-items-center{
+    align-items: center;
+}
+
 .flex-between{
     justify-content: space-between;
 }
@@ -44,7 +52,6 @@ header{
 
 nav.flex{
     height: 80px;
-    align-items: center;
 }
 
 section.nav-section ul{
@@ -85,13 +92,17 @@ main{
     margin: 0 auto;
 }
 
+.margin-top{
+    margin-top: 100px;
+}
+
 .p-relative{
     position: relative;
 }
 
 .container{
     margin: 0 auto;
-    width: 70%;
+    width: 65%;
 }
 
 .padding{
@@ -129,8 +140,6 @@ section.title{
 }
 
 section.title h1{
-    margin: 0 auto;
-    width: 70%;
     font-size: 4rem;
     text-align: start;
     padding: 1rem 0 2rem 0;
@@ -244,11 +253,6 @@ div.horizontal-card p{
     padding: 1rem 1.5rem;
 }
 
-section.dropbox-partner{
-    justify-content: center;
-    margin-top: 100px;
-}
-
 section.dropbox-partner div.img{
     background-image: url("../img/partner.png");
     background-size: contain;
@@ -277,7 +281,6 @@ section.dropbox-partner button#button-partner{
 }
 
 div.cells-container{
-    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -294,14 +297,6 @@ article.cell img{
 article.cell h3{
     font-size: 1.1rem;
     padding-bottom: 1rem;
-}
-
-section.client-number{
-    margin-top: 100px;
-}
-
-section.team-members{
-    margin-top: 100px;
 }
 
 section.team-members div.square{
@@ -373,10 +368,6 @@ section.free-trial{
     background-color: #b4d0e7;
 }
 
-section.free-trial div.trial-container{
-    align-items: center;
-}
-
 div.trial-container h2{
     font-size: 1.5rem;
     color: #60092e;
@@ -388,7 +379,6 @@ div.trial-container button{
 }
 
 div.question-difference{
-    align-items: center;
     font-weight: bold;
 }
 
