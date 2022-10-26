@@ -18,6 +18,10 @@ body{
     display: flex;
 }
 
+.flex-between{
+    justify-content: space-between;
+}
+
 .font-size{
     font-size: .7rem;
 }
@@ -40,7 +44,6 @@ header{
 
 nav.flex{
     height: 80px;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -133,15 +136,15 @@ section.title h1{
     padding: 1rem 0 2rem 0;
 }
 
-div.info-container div.side-bar{
+div.info-container div#side-bar{
     width: 30%;
 }
 
-div.side-bar button{
+div#side-bar button{
     margin: 1rem 0;
 }
 
-div.side-bar p#space{
+div#side-bar p#space{
     margin-bottom: 3rem;
 }
 
@@ -158,7 +161,6 @@ span.radio{
 }
 
 div.business-container{
-    justify-content: space-between;
     margin-top: 40px;
 }
 
@@ -201,7 +203,7 @@ div.cards button.button-card{
 }
 
 div.cards button.button-contact-us{
-    padding: .5rem 4rem;
+    padding: .5rem 3.5rem;
 }
 
 div.cards h4{
@@ -280,7 +282,8 @@ div.cells-container{
 }
 
 div.cells-container article.cell{
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 1rem);
+    margin-right: 1rem;
 }
 
 article.cell img{
@@ -371,7 +374,6 @@ section.free-trial{
 }
 
 section.free-trial div.trial-container{
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -386,7 +388,6 @@ div.trial-container button{
 }
 
 div.question-difference{
-    justify-content: space-between;
     align-items: center;
     font-weight: bold;
 }
@@ -408,7 +409,6 @@ footer{
 }
 
 section.footer-top{
-    justify-content: space-between;
     margin-bottom: 5rem;
 }
 
