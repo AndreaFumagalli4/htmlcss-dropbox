@@ -13,9 +13,13 @@ body{
 }
 
 /* css HEADER */
-/* SISTEMARE CENTRATURE ORIZZONTALI CON ALIGN-ITEMS: CENTER; */
+
 .flex{
     display: flex;
+}
+
+.font-size{
+    font-size: .7rem;
 }
 
 .button{
@@ -28,16 +32,13 @@ body{
 }
 
 nav.flex{
-    height: 50px;
+    height: 80px;
     justify-content: space-between;
+    align-items: center;
 }
 
 section.nav-section ul{
     list-style-type: none;
-}
-
-section.section-right ul{
-    padding-top: 1rem;
 }
 
 section.section-right ul>li:nth-child(3){
@@ -50,8 +51,8 @@ section.nav-section ul>li{
 }
 
 section.nav-section li>img{
-    vertical-align: bottom;
-    padding: .75rem 0 0 .8rem;
+    vertical-align: middle;
+    padding-left: .5rem;
 }
 
 section.nav-section li>a{
@@ -63,17 +64,10 @@ button.start-button{
     padding: .25rem .5rem;
 }
 
-section.nav-section li>a,
-button.start-button,
-section.client-number a,
-div.trial-container button{
-    font-size: .7rem;
-}
-
 /* css MAIN */
 
 .section-position{
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
 }
 
