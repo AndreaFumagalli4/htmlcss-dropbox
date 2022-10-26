@@ -161,7 +161,8 @@ div.side-bar p,
 div.cards,
 section.dropbox-partner article,
 article.cell p,
-div.center-square p{
+div.center-square p,
+section.questions p{
     font-size: .75rem;
 }
 
@@ -336,7 +337,6 @@ div.center-square p{
     padding: 0 1.5rem 2rem 1.5rem;
 }
 
-/* CAMBIARE COLORE IMMAGINE */
 div.square div#design-it{
     background-color: #a2d39b;
     border: 10px solid #d1e9cd;
@@ -387,6 +387,20 @@ div.trial-container h2{
 
 div.trial-container button{
     padding: .5rem 2rem;
+}
+
+div.question-difference{
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+div.question-difference p{
+    padding: 1.5rem 0;
+}
+
+section.questions span{
+    padding-right: 1rem;
 }
 
 /* css FOOTER */
