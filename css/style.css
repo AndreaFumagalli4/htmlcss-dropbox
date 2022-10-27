@@ -206,6 +206,14 @@ div.cards ul>li{
     padding-bottom: 1rem;
 }
 
+div.flex i.item{
+    padding-top: .1rem; 
+}
+
+div.flex>p{
+    padding-left: .3rem;
+}
+
 div.cards button.button-card{
     margin: 1rem 0 1.5rem 1.5rem;
     padding: .5rem 1rem;
